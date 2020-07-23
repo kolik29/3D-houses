@@ -1,18 +1,18 @@
-var houses = [
+var houses = [ //масив со всеми домами на карте
 	{
-		size: {
+		size: { //размер дома
 			x: 10,
 			y: 5,
 			z: 10
 		},
-		position: {
+		position: { //положение дома на карте
 			x: 15,
 			y: 30
 		},
-		color: 0xff0000,
-		roof: {
-			height: 2,
-			color: 0x00b2fc
+		color: 0xff0000, //цвет дома
+		roof: { //крыша
+			height: 2, //высота крыши
+			color: 0x00b2fc //цвет крыши
 		}
 	},
 	{
